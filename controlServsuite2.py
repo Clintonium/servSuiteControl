@@ -11,7 +11,7 @@ from selenium.webdriver.common.by import By
 ######################################################
 #########OPEN BROWSER AND LOGIN#######################
 ######################################################
-driver = webdriver.Chrome('/Users/suneethi/Desktop/chromedriver')
+driver = webdriver.Chrome('/Users/clintonford/Desktop/chromedriver')
 driver.get('https://sprolive.theservicepro.net/login.aspx')
 
 id_box = driver.find_element_by_name('txtUserName')
